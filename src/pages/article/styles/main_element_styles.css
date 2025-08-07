@@ -673,9 +673,7 @@ aside > img {
 }
 
 .youtalk__footer-above {
-  position: absolute;
-  width: 100%;
-  height: 384px;
+  height: 82px;
   background-image: url("/youtalk/src/common/assets/images/underlay_background.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
