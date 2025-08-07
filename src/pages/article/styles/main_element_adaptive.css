@@ -1,0 +1,773 @@
+@media (hover: none) and (pointer: none) {
+  .aside-content-container__appointment-container button:active, .aside-content-container__psychologist-container button:active,
+  .aside-content-container__video-sessions-container button:active, .under-main-content-container__psychologist-suggestion-container button:active {
+    background-color: #44D8CC;
+  }
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .aside-content-container__appointment-container button:active, .aside-content-container__psychologist-container button:active,
+  .aside-content-container__video-sessions-container button:active, .under-main-content-container__psychologist-suggestion-container button:active {
+    background-color: #44D8CC;
+  }
+}
+
+@media (hover: none) and (pointer: fine) {
+  .aside-content-container__appointment-container button:active, .aside-content-container__psychologist-container button:active,
+  .aside-content-container__video-sessions-container button:active, .under-main-content-container__psychologist-suggestion-container button:active {
+    background-color: #44D8CC;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .aside-content-container__appointment-container button:hover, .aside-content-container__psychologist-container button:hover,
+  .aside-content-container__video-sessions-container button:hover, .under-main-content-container__psychologist-suggestion-container button:hover {
+    background-color: #44D8CC;
+  }
+}
+
+@media (min-width: 1913px) and (max-width: 2560px) {
+  main {
+    padding: 0px 300px;
+  }
+
+  aside > img {
+    right: -370px;
+  }
+
+  .youtalk__under-main-content-container {
+    padding: 0px 300px 26px 300px;
+  }
+
+  .youtalk__under-main-content-container div:nth-child(2) > img {
+    right: -495px;
+  }
+}
+
+@media (max-width: 1700px) {
+  main {
+    padding: 0px 120px;
+  }
+
+  aside > img {
+    right: -190px;
+  }
+
+  .youtalk__under-main-content-container {
+    padding: 0px 120px 26px 120px;
+  }
+
+  .youtalk__under-main-content-container div:nth-child(2) > img {
+    right: -315px;
+  }
+}
+
+@media (max-width: 1439px) {
+  main {
+    padding: 0px 25px;
+  }
+
+  .big-container-content__navigation-paragraph {
+    margin-left: 0;
+  }
+
+  aside > img {
+    right: -95px;
+  }
+
+  .youtalk__under-main-content-container {
+    padding: 0px 25px 26px 25px;
+  }
+
+  .youtalk__under-main-content-container div:nth-child(2) > img {
+    right: -220px;
+  }
+}
+
+@media (max-width: 1190px) {
+  .youtalk__under-main-content-container div:nth-child(2) > img {
+    display: none;
+  }
+}
+
+@media (max-width: 1060px) {
+  main {
+    justify-content: center;
+    padding: 0px 24.5px;
+  }
+
+  .youtalk-main-content-container__big-container-content, .big-container-content__top-part-container > img, .big-container-content__specialist-statement-container,
+  .big-container-content__men-image, .big-container-content__specialist-statement-repetition-container, .big-container-content__excercise-container {
+    width: 714px;
+  }
+
+  .big-container-content__article-contents-container > ul > li {
+    background: none;
+  }
+
+  .big-container-content__article-contents-container > ul > li:first-child {
+    margin-bottom: 8px;
+  }
+
+  .big-container-content__article-contents-container > ul > li:nth-child(2), .big-container-content__article-contents-container > ul > li:nth-child(3),
+  .big-container-content__introduction-paragraph br:nth-of-type(-n+2), .big-container-content__article-main-content-container ul li:first-child br,
+  .youtalk-main-content-container__big-container-content figure + p br, p + .big-container-content__image-advice-container p br:not(:nth-last-child(2)),
+  .big-container-content__image-advice-container + p br, .big-container-content__article-main-content-container > h3:nth-of-type(2) + ul li:last-child br,
+  ul + .big-container-content__image-advice-container p br {
+    display: none;
+  }
+
+  .big-container-content__introduction-paragraph {
+    margin: 16px 0px 24px 0px;
+  }
+
+  .big-container-content__specialist-statement-container {
+    padding: 34px 47px 24px 24px;
+  }
+
+  .big-container-content__specialist-statement-container img {
+    top: -12px;
+    left: -2px;
+  }
+
+  .big-container-content__specialist-statement-repetition-container {
+    padding: 24px 127px 48px 102px;
+  }
+  
+  .big-container-content__specialist-statement-repetition-container img {
+    right: 237.5px;
+  }
+
+  .big-container-content__two-images-advices-container {
+    grid-template: 235px 192px / 345px 345px;
+  }
+
+  .big-container-content__two-images-advices-container img {
+    width: 345px;
+  }
+
+  .big-container-content__topics-links-container, .youtalk__under-main-content-container, .youtalk__footer-above {
+    display: none;
+  }
+
+  aside {
+    height: 1790px;
+    margin-left: 24px;
+  }
+
+  .aside-content-container__appointment-container {
+    width: 222px;
+    height: 496px;
+    padding: 24px 20px;
+  }
+
+  .aside-content-container__appointment-container img {
+    width: 181px;
+    margin-bottom: 24px;
+  }
+
+  .aside-content-container__appointment-container p br {
+    display: none;
+  }
+
+  .aside-content-container__appointment-container button {
+    padding: 12px 41.5px;
+    width: auto;
+  }
+
+  .aside-content-container__psychologist-container {
+    width: 222px;
+    height: 533px;
+    padding: 24px 24px 17px 24px;
+    margin: 24px 0px 24px 0px;
+  }
+
+  .aside-content-container__psychologist-container ul {
+    margin: 8px 0px 16px 0px;
+  }
+
+  .aside-content-container__psychologist-container ul li {
+    text-indent: 0;
+    padding-left: 4px;
+  }
+
+  .aside-content-container__psychologist-container button {
+    padding: 12px 37.5px;
+  }
+
+  .aside-content-container__care-container {
+    background-position: center top;
+    background-size: 126% 66%;
+  }
+
+  .aside-content-container__care-container img:nth-child(2) {
+    left: -33px;
+  }
+
+  .aside-content-container__care-container img:nth-child(3) {
+    left: 63px;
+  }
+
+  .aside-content-container__care-container img:last-child {
+    right: -12px;
+  }
+
+  .aside-content-container__video-sessions-container {
+    height: 310px;
+    padding: 24px 0px 24px 24px;
+    margin: 24px 0px 0px 0px;
+  }
+
+  .aside-content-container__video-sessions-container p {
+    width: 174px;
+  }
+
+  .aside-content-container__video-sessions-container button {
+    z-index: 1;
+  }
+
+  .aside-content-container__video-sessions-container picture:first-of-type img {
+    right: 3px;
+    bottom: -29px;
+  }
+
+  .aside-content-container__video-sessions-container picture:last-of-type img {
+    right: -40px;
+    bottom: -42px;
+  }
+
+  aside > img {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1060px) {
+  .aside-content-container__appointment-container img {
+    height: 145px;
+  }
+
+  .aside-content-container__psychologist-container ul li:nth-child(2) {
+    margin: 8px 0px 16px 0px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .big-container-content__article-contents-container > ul > li br, .big-container-content__specialist-statement-repetition-container + p br,
+  .big-container-content__hrs-lightning-container + p br, .aside-content-container__care-container p br, .aside-content-container__video-sessions-container p br {
+    display: none;
+  }
+
+  main {
+    width: 763px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: normal;
+  }
+
+  .youtalk-main-content-container__big-container-content, .big-container-content__specialist-statement-container, .big-container-content__men-image,
+  .big-container-content__specialist-statement-repetition-container, .big-container-content__excercise-container {
+    width: 728px;
+  }
+
+  .big-container-content__article-contents-container > ul {
+    margin: 16px 0px 36px 0px;
+  }
+
+  .big-container-content__specialist-statement-container {
+    padding: 24px;
+  }
+
+  .big-container-content__specialist-statement-container img {
+    top: -12px;
+    left: -1px;
+  }
+
+  .big-container-content__specialist-statement-repetition-container {
+    padding: 24px 141px 48px 102px;
+  }
+
+  .big-container-content__specialist-statement-repetition-container img {
+    right: 244.5px;
+  }
+
+  p + .big-container-content__image-advice-container img {
+    width: 294px;
+    aspect-ratio: 1 / 1;
+  }
+
+  ul + .big-container-content__image-advice-container img {
+    width: 294px;
+    height: 182px;
+  }
+
+  .big-container-content__two-images-advices-container {
+    grid-template: 235px 192px / 356px 356px;
+    column-gap: 16px;
+    row-gap: 24px;
+  }
+
+  .big-container-content__two-images-advices-container img {
+    width: 356px;
+  }
+
+  .big-container-content__excercise-container:nth-of-type(3) {
+    margin-bottom: 23px;
+  }
+
+  aside {
+    display: grid;
+    grid-template: 481px 248px / 356px 356px;
+    column-gap: 16px;
+    row-gap: 36px;
+    max-width: none;
+    height: 826px;
+    padding-top: 0;
+    margin-left: 0;
+  }
+
+  .aside-content-container__appointment-container {
+    width: 356px;
+    height: 481px;
+    padding: 22px 23px 20px 23px;
+  }
+
+  .aside-content-container__appointment-container img {
+    display: block;
+    width: 257px;
+    margin: 0px auto 24px auto;
+  }
+
+  .aside-content-container__appointment-container button {
+    padding: 12px 105.5px;
+  }
+
+  .aside-content-container__psychologist-container {
+    width: 356px;
+    height: 481px;
+    padding: 24px 52.5px 36px 52.5px;
+    margin: 0;
+  }
+
+  .aside-content-container__psychologist-container button {
+    padding: 12px 75px;
+  }
+
+  .aside-content-container__care-container {
+    height: 248px;
+    background-position: left top;
+    background-size: 77% 79%;
+  }
+
+  .aside-content-container__care-container img:nth-child(2) {
+    width: 128px;
+    height: 166px;
+    bottom: -61px;
+    left: 30px;
+  }
+
+  .aside-content-container__care-container img:nth-child(3) {
+    width: 190px;
+    height: 181px;
+    bottom: -49px;
+    left: 139px;
+  }
+
+  .aside-content-container__care-container img:last-child {
+    width: 90px;
+    height: 136px;
+    right: 23px;
+    bottom: -68px;
+  }
+
+  .aside-content-container__video-sessions-container {
+    height: 250px;
+    padding: 24px 83px 4px 21px;
+    margin: 0;
+  }
+
+  .aside-content-container__video-sessions-container p {
+    width: auto;
+  }
+
+  .aside-content-container__video-sessions-container picture:first-of-type img {
+    right: -16px;
+    bottom: -10px;
+  }
+
+  .aside-content-container__video-sessions-container picture:last-of-type img {
+    right: -70px;
+    bottom: -21px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .big-container-content__article-contents-container {
+    padding-top: 12px;
+  }
+
+  .aside-content-container__appointment-container h3 {
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 782px) {
+  main {
+    width: 753px;
+    padding: 0px 12.5px;
+  }
+}
+
+@media (max-width: 767px) {
+  main {
+    width: 414px;
+    padding: 0px 20px;
+  }
+
+  .youtalk-main-content-container__big-container-content, .big-container-content__top-part-container > img, .big-container-content__specialist-statement-container,
+  .big-container-content__men-image, .big-container-content__specialist-statement-repetition-container, .big-container-content__excercise-container,
+  p + .big-container-content__image-advice-container img, ul + .big-container-content__image-advice-container img, .big-container-content__two-images-advices-container img,
+  .big-container-content__hrs-lightning-container, .aside-content-container__appointment-container, .aside-content-container__psychologist-container {
+    width: 374px;
+  }
+
+  .youtalk-main-content-container__big-container-content {
+    padding-top: 12px;
+  }
+
+  .big-container-content__top-part-container {
+    height: 422px;
+  }
+
+  .big-container-content__navigation-paragraph {
+    display: inline-block;
+    width: 363px;
+    height: 17px;
+    vertical-align: middle;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .big-container-content__navigation-paragraph, .navigation__left-anchor, .navigation__right-anchor {
+    font: 12px "Montserrat-Regular";
+  }
+  
+  .navigation__left-span, .navigation__center-span {
+    display: initial;
+  }
+
+  .big-container-content__navigation-paragraph span:not(:last-child) {
+    margin-right: 14.4px;
+  }
+
+  .big-container-content__navigation-paragraph a {
+    margin-right: 9.6px;
+    margin-bottom: 0;
+  }
+
+  .big-container-content__navigation-paragraph img {
+    margin-bottom: -2px;
+  }
+
+  .big-container-content__top-part-container h1 {
+    font: 32px/40px "Montserrat-Bold";
+    margin: 32px 0px 8px 0px;
+  }
+
+  .big-container-content__top-part-container h1 br {
+    display: none;
+  }
+
+  .big-container-content__article-data-container {
+    margin-bottom: 16px;
+  }
+
+  .big-container-content__top-part-container > img {
+    height: 207px;
+  }
+
+  .big-container-content__article-contents-container > ul {
+    margin: 16px 0px 24px 0px;
+  }
+
+  .big-container-content__introduction-paragraph span:nth-last-of-type(2) {
+    display: block;
+    margin-top: 16px;
+  }
+
+  .big-container-content__introduction-paragraph br:nth-last-of-type(-n+2) {
+    display: none;
+  }
+
+  .big-container-content__specialist-statement-container {
+    padding: 26px 16px 16px 16px;
+  }
+  
+  .big-container-content__specialist-statement-container img {
+    left: 0px;
+  }
+
+  .big-container-content__men-image {
+    height: 207px;
+  }
+
+  .big-container-content__specialist-statement-repetition-container {
+    padding: 24px 0px 0px 0px;
+  }
+  
+  .big-container-content__specialist-statement-repetition-container img {
+    right: 67.5px;
+  }
+
+  .big-container-content__image-advice-container {
+    flex-wrap: wrap;
+    row-gap: 16px;
+  }
+
+  .big-container-content__excercise-container {
+    padding: 16px;
+  }
+
+  ul + .big-container-content__image-advice-container img {
+    height: 207px;
+  }
+
+  .big-container-content__two-images-advices-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: normal;
+  }
+
+  .big-container-content__two-images-advices-container img {
+    margin-bottom: 16px;
+  }
+
+  .big-container-content__two-images-advices-container p:nth-child(2) {
+    margin-bottom: 24px;
+  }
+
+  .big-container-content__excercise-container:nth-of-type(3) {
+    margin-bottom: 56px;
+  }
+
+  aside {
+    display: flex;
+    height: 1734px;
+    flex-direction: column;
+    row-gap: 24px;
+  }
+
+  .aside-content-container__appointment-container {
+    height: 509px;
+    padding: 24px 32px 44px 32px;
+  }
+
+  .aside-content-container__psychologist-container {
+    height: 484px;
+    padding: 24px 62px 36px 62px;
+  }
+
+  .aside-content-container__psychologist-container ul {
+    margin: 8px 0px 20px 0px;
+  }
+
+  .aside-content-container__psychologist-container button {
+    padding: 12px 74.5px;
+  }
+
+  .aside-content-container__care-container {
+    height: 292px;
+    background-size: 75% 66%;
+  }
+
+  .aside-content-container__care-container img:nth-child(2) {
+    bottom: -29px;
+    left: 31px;
+  }
+
+  .aside-content-container__care-container img:nth-child(3) {
+    bottom: -32px;
+    left: 141px;
+  }
+
+  .aside-content-container__care-container img:last-child {
+    right: 39px;
+    bottom: -36px;
+  }
+
+  .aside-content-container__video-sessions-container {
+    height: 250px;
+    padding: 24px;
+  }
+
+  .aside-content-container__video-sessions-container p br:nth-child(2) {
+    display: block;
+  }
+
+  .aside-content-container__video-sessions-container picture:first-of-type img {
+    right: 42px;
+    bottom: -30px;
+  }
+
+  .aside-content-container__video-sessions-container picture:last-of-type img {
+    right: -12px;
+    bottom: -41px;
+  }
+}
+
+@media (max-width: 413px) {
+  main {
+    width: 320px;
+    padding: 0px 16px;
+  }
+
+  .youtalk-main-content-container__big-container-content {
+    padding-top: 16px;
+  }
+
+  .youtalk-main-content-container__big-container-content, .big-container-content__specialist-statement-container, .big-container-content__men-image,
+  .big-container-content__specialist-statement-repetition-container, .big-container-content__excercise-container, p + .big-container-content__image-advice-container img,
+  ul + .big-container-content__image-advice-container img, .big-container-content__two-images-advices-container img, .big-container-content__hrs-lightning-container,
+  .aside-content-container__appointment-container, .aside-content-container__psychologist-container {
+    width: 288px;
+  }
+
+  .big-container-content__top-part-container {
+    height: 352px;
+  }
+
+  .big-container-content__navigation-paragraph {
+    width: 273px;
+  }
+
+  .big-container-content__top-part-container h1 {
+    font: 24px/32px "Montserrat-Bold";
+  }
+
+  .big-container-content__top-part-container > img {
+    width: 287px;
+    height: 160px;
+  }
+
+  .big-container-content__article-contents-container {
+    padding-top: 16px;
+  }
+
+  .big-container-content__article-contents-container > ul {
+    margin: 16px 0px;
+  }
+
+  .big-container-content__article-main-content-container > h3:nth-of-type(1), .big-container-content__article-main-content-container > h3:nth-of-type(2),
+  .big-container-content__article-main-content-container > h3:nth-of-type(3) {
+    font: 18px/26px "Montserrat-Bold";
+  }
+
+  .big-container-content__introduction-paragraph {
+    margin: 8px 0px 40px 0px;
+  }
+
+  .big-container-content__introduction-paragraph span:nth-of-type(3) {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .big-container-content__introduction-paragraph span:nth-last-of-type(2) {
+    display: initial;
+  }
+
+  .big-container-content__introduction-paragraph br:nth-last-of-type(3) {
+    display: none;
+  }
+
+  .big-container-content__article-main-content-container > h3:nth-of-type(2), .big-container-content__article-main-content-container > h3:nth-of-type(3) {
+    margin: 16px 0px 8px 0px;
+  }
+
+  .big-container-content__article-main-content-container ul li:first-child {
+    margin-bottom: 8px;
+  }
+
+  .big-container-content__men-image {
+    margin: 16px 0px 16px 0px;
+  }
+
+  .youtalk-common_margin24-top-bottom {
+    margin: 16px 0px;
+  }
+
+  .big-container-content__specialist-statement-repetition-container {
+    padding: 8px 0px 0px 0px;
+    height: 176px;
+  }
+
+  .big-container-content__specialist-statement-repetition-container img {
+    right: 24.5px;
+  }
+
+  ul + .big-container-content__image-advice-container img {
+    height: 160px;
+  }
+
+  .big-container-content__two-images-advices-container img {
+    margin-bottom: 8px;
+  }
+
+  .big-container-content__two-images-advices-container p:nth-child(2) {
+    margin-bottom: 16px;
+  }
+
+  .big-container-content__excercise-container:nth-of-type(3) {
+    margin-bottom: 16px;
+  }
+
+  .aside-content-container__appointment-container {
+    height: 509px;
+    padding: 24px;
+  }
+
+  .aside-content-container__appointment-container img {
+    width: 239px;
+    margin: 0px 0px 24px 0px;
+  }
+
+  .aside-content-container__appointment-container button {
+    padding: 12px 70.5px;
+  }
+
+  .aside-content-container__psychologist-container {
+    height: 484px;
+    padding: 24px 19px 36px 19px;
+  }
+
+  .aside-content-container__psychologist-container button {
+    padding: 12px 74px;
+  }
+
+  .aside-content-container__care-container img:nth-child(2) {
+    left: 32px;
+  }
+
+  .aside-content-container__care-container img:nth-child(3) {
+    bottom: -31px;
+    left: 142px;
+  }
+
+  .aside-content-container__care-container img:last-child {
+    right: -48px;
+  }
+
+  .aside-content-container__video-sessions-container {
+    height: 252px;
+    padding: 16px;
+  }
+
+  .aside-content-container__video-sessions-container picture:first-of-type img {
+    right: 25px;
+    bottom: -15px;
+  }
+  
+  .aside-content-container__video-sessions-container picture:last-of-type img {
+    right: -17px;
+    bottom: -20px;
+  }
+}

@@ -1,0 +1,731 @@
+@media (hover: none) and (pointer: none) {
+  .topics-container__topics-list li:not(:nth-child(3)):active {
+    outline-color: #2963A3;
+  }
+
+  .front-container-content__middle-part-container article:active {
+    outline: 2px solid #16C8BB;
+    border-radius: 16px;
+  }
+
+  .front-container-content__button:active {
+    background-color: #44D8CC;
+  }
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .topics-container__topics-list li:not(:nth-child(3)):active {
+    outline-color: #2963A3;
+  }
+
+  .front-container-content__middle-part-container article:active {
+    outline: 2px solid #16C8BB;
+    border-radius: 16px;
+  }
+
+  .front-container-content__button:active {
+    background-color: #44D8CC;
+  }
+}
+
+@media (hover: none) and (pointer: fine) {
+  .topics-container__topics-list li:not(:nth-child(3)):active {
+    outline-color: #2963A3;
+  }
+
+  .front-container-content__middle-part-container article:active {
+    outline: 2px solid #16C8BB;
+    border-radius: 16px;
+  }
+
+  .front-container-content__button:active {
+    background-color: #44D8CC;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .topics-container__topics-list li:not(:nth-child(3)):hover {
+    outline-color: #2963A3;
+  }
+
+  article:hover {
+    outline: 2px solid #16C8BB;
+    border-radius: 16px;
+  }
+
+  .front-container-content__button:hover {
+    background-color: #44D8CC;
+  }
+}
+
+@media (min-width: 1913px) and (max-width: 2560px) {
+  main, .youtalk-main-content-container__front-container-content {
+    height: 2454px;
+  }
+
+  .front-container-content__middle-part-container {
+    grid-template: 700px 650px 650px / auto auto 24px auto 24px auto 24px auto auto;
+  }
+
+  article a img {
+    height: 400px;
+  }
+
+  .run-article__card-info-wrapper_superbig-gap {
+    row-gap: 172px;
+  }
+
+  .girl-article__card-info-wrapper_supersmall-gap, .woman-burnout-article__card-info-wrapper_supersmall-gap {
+    row-gap: 96px;
+  }
+
+  .swim-article__card-info-wrapper_small-gap, .woman-fears-article__card-info-wrapper_small-gap, .smile-article__card-info-wrapper_middle-gap,
+  .men-article__card-info-wrapper_middle-gap {
+    row-gap: 102px;
+  }
+}
+
+@media ((min-width: 2282px) and (max-width: 2560px)) or ((min-width: 1998px) and (max-width: 2039px)) or ((min-width: 2098px) and (max-width: 2223px)) {
+  .eggs-article__card-info-wrapper_big-gap {
+    row-gap: 172px;
+  }
+}
+
+@media (min-width: 1913px) and (max-width: 2522px) {
+  .girl-article__card-info-wrapper_supersmall-gap, .woman-burnout-article__card-info-wrapper_supersmall-gap {
+    row-gap: 76px;
+  }
+}
+
+@media (min-width: 1913px) and (max-width: 2451px) {
+  .run-article__card-info-wrapper_superbig-gap {
+    row-gap: 152px;
+  }
+}
+
+@media ((min-width: 2224px) and (max-width: 2281px)) or ((min-width: 2040px) and (max-width: 2097px)) or ((min-width: 1913px) and (max-width: 1997px)) {
+  .eggs-article__card-info-wrapper_big-gap {
+    row-gap: 146px;
+  }
+}
+
+@media (min-width: 1913px) and (max-width: 2223px) {
+  .youtalk-main-content-container__front-container-content {
+    padding: 0px 100px;
+  }
+}
+
+@media (min-width: 1913px) and (max-width: 2039px) {
+  .youtalk-main-content-container__front-container-content {
+    padding: 0px 50px;
+  }
+}
+
+@media (max-width: 1816px) {
+  .youtalk-main-content-container__front-container-content {
+    padding: 0px 163px;
+  }
+}
+
+@media (max-width: 1758px) {
+  .youtalk-main-content-container__front-container-content {
+    padding: 0px 141px;
+  }
+}
+
+@media (max-width: 1715px) {
+  .youtalk-main-content-container__front-container-content {
+    padding: 0px 120px;
+  }
+}
+
+@media (max-width: 1672px) {
+  .eggs-article__card-info-wrapper_big-gap {
+    row-gap: 65px;
+  }
+}
+
+@media (max-width: 1669px) {
+  .smile-article__card-info-wrapper_middle-gap, .men-article__card-info-wrapper_middle-gap {
+    row-gap: 48px;
+  }
+}
+
+@media (max-width: 1647px) {
+  .smile-article__card-info-wrapper_middle-gap, .men-article__card-info-wrapper_middle-gap {
+    row-gap: 22px;
+  }
+}
+
+@media (max-width: 1608px) {
+  .woman-burnout-article__description-paragraph {
+    height: 20px;
+    overflow: hidden;
+  }
+
+  .woman-burnout-article__description-paragraph::after {
+    content: "...";
+    position: relative;
+    top: -19px;
+    right: -95px;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1608px) {
+  .woman-burnout-article__card-info-wrapper_supersmall-gap {
+    row-gap: 18px;
+  }
+}
+
+@media (max-width: 1558px) {
+  .woman-burnout-article__description-paragraph {
+    max-width: 373px;
+  }
+
+  .woman-burnout-article__description-paragraph::after {
+    position: absolute;
+    top: 1px;
+    right: -1px;
+  }
+}
+
+@media (max-width: 1522px) {
+  .woman-burnout-article__description-paragraph {
+    max-width: 283px;
+  }
+}
+
+@media (max-width: 1499px) {
+  .girl-article__description-paragraph {
+    height: 40px;
+    overflow: hidden;
+  }
+
+  .girl-article__description-paragraph::after {
+    content: "...";
+    position: relative;
+    top: -19px;
+    right: -211px;
+  }
+}
+
+@media (max-width: 1459px) {
+  .youtalk-main-content-container__front-container-content {
+    padding: 0px 110px;
+  }
+}
+
+@media (max-width: 1439px) {
+  .youtalk-main-content-container__front-container-content {
+    padding: 0px 25px;
+  }
+
+  .top-part-container__navigation-paragraph-paragraph {
+    margin-left: 0;
+  }
+
+  .woman-burnout-article__description-paragraph {
+    max-width: none;
+    height: auto;
+    overflow: visible;
+  }
+
+  .woman-burnout-article__description-paragraph::after {
+    content: normal;
+  }
+}
+
+@media (max-width: 1418px) {
+  main, .youtalk-main-content-container__front-container-content {
+    height: 1921px;
+  }
+
+  .front-container-content__middle-part-container {
+    grid-template: 499px 476px 492px / auto auto 24px auto 24px auto 24px auto auto;
+  }
+
+  .woman-burnout-article__card-info-wrapper_supersmall-gap {
+    row-gap: 14px;
+  }
+
+  .woman-burnout-article__original-author-span {
+    width: 139px;
+  }
+
+  .woman-burnout-article__editorial-span {
+    width: 177px;
+  }
+}
+
+@media (min-width: 1310px) and (max-width: 1418px) {
+  .woman-burnout-article__card-info-container_size-small, .woman-fears-article__card-info-container_size-small, .men-article__card-info-container_size-small {
+    height: 232px;
+  }
+
+  .woman-fears-article__card-info-wrapper_small-gap, .men-article__card-info-wrapper_middle-gap {
+    row-gap: 38px;
+  }
+}
+
+@media (max-width: 1309px) {
+  main, .youtalk-main-content-container__front-container-content {
+    height: 1961px;
+  }
+
+  .front-container-content__middle-part-container {
+    grid-template: 499px 496px 512px / auto auto 24px auto 24px auto 24px auto auto;
+  }
+}
+
+@media (min-width: 1271px) and (max-width: 1309px) {
+  article:nth-child(-n+5):not(:nth-child(-n+2)) a {
+    height: 496px;
+  }
+
+  .girl-article__card-info-container_size-small, .swim-article__card-info-container_size-small, .smile-article__card-info-container_size-small {
+    height: 236px;
+  }
+
+  .woman-burnout-article__card-info-container_size-small, .woman-fears-article__card-info-container_size-small, .men-article__card-info-container_size-small {
+    height: 252px;
+  }
+
+  .swim-article__card-info-wrapper_small-gap, .smile-article__card-info-wrapper_middle-gap {
+    row-gap: 42px;
+  }
+
+  .woman-fears-article__card-info-wrapper_small-gap, .men-article__card-info-wrapper_middle-gap {
+    row-gap: 58px;
+  }
+}
+
+@media (max-width: 1270px) {
+  main, .youtalk-main-content-container__front-container-content {
+    height: 1871px;
+  }
+
+  .youtalk-main-content-container__background {
+    display: none;
+  }
+
+  .youtalk-main-content-container__front-container-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .front-container-content__middle-part-container {
+    grid-template: 499px 459px 459px / 148px 148px 32px 148px 24px 148px 16px 148px 148px;
+    align-self: center;
+  }
+
+  article:not(:nth-child(-n+2)) {
+    width: 304px;
+  }
+
+  article:nth-child(5), article:last-child {
+    margin-left: -8px;
+  }
+
+  .front-container-content__middle-part-container article:not(:nth-child(-n+2)) a > img {
+    height: 206px;
+  }
+
+  .girl-article__card-info-wrapper_supersmall-gap {
+    row-gap: 26px;
+  }
+
+  .woman-burnout-article__card-info-wrapper_supersmall-gap {
+    row-gap: 6px;
+  }
+
+  .eggs-article__card-info-wrapper_big-gap {
+    row-gap: 39px;
+  }
+
+  .run-article__card-info-wrapper_superbig-gap {
+    row-gap: 45px;
+  }
+
+  .swim-article__card-info-wrapper_small-gap, .woman-fears-article__card-info-wrapper_small-gap {
+    row-gap: 12px;
+  }
+
+  .smile-article__card-info-wrapper_middle-gap, .men-article__card-info-wrapper_middle-gap {
+    row-gap: 38px;
+  }
+
+  .middle-part-container__girl-article h2, .middle-part-container__woman-burnout-article h2 {
+    width: 272px;
+  }
+
+  .middle-part-container__swim-article h2, .middle-part-container__woman-fears-article h2 {
+    width: 245px;
+  }
+
+  .middle-part-container__woman-burnout-article .woman-burnout-article__author-paragraph {
+    display: block;
+  }
+
+  .middle-part-container__woman-burnout-article .woman-burnout-article__original-author-span, .middle-part-container__woman-burnout-article .woman-burnout-article__editorial-span {
+    display: inline;
+  }
+
+  .woman-burnout-article__editorial-span::after {
+    content: "...";
+    position: relative;
+    top: 1px;
+    left: -3px;
+  }
+
+  .woman-burnout-article__editorial-span + span {
+    display: none;
+  }
+
+  .girl-article__description-paragraph::after {
+    content: "...";
+    position: relative;
+    top: -39px;
+    right: -142px;
+  }
+
+  .woman-burnout-article__description-paragraph {
+    height: 60px;
+    overflow: hidden;
+  }
+
+  .woman-burnout-article__description-paragraph::after {
+    content: "...";
+    position: relative;
+    top: -19px;
+    right: -109px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1270px) {
+  article:not(:nth-child(-n+2)) div {
+    padding: 17px 16px 16px 16px;
+  }
+}
+
+@media (max-width: 1248px) {
+  main {
+    margin: 0 auto;
+  }
+
+  main, .youtalk-main-content-container__front-container-content {
+    width: 1024px;
+    height: 1866px;
+  }
+
+  .youtalk-main-content-container__front-container-content {
+    align-items: center;
+    padding: 0px 32px;
+  }
+
+  .front-container-content__top-part-container {
+    width: 960px;
+    align-self: center;
+  }
+
+  .top-part-container__header {
+    margin: 40px 0px 32px 0px;
+  }
+
+  .topics-container__topics-list {
+    width: 934px;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: normal;
+  }
+
+  .front-container-content__button-container {
+    margin: 35px 0px 60px 0px;
+  }
+
+  .front-container-content__button {
+    width: 182px;
+  }
+}
+
+@media (max-width: 1038px) {
+  .youtalk-main-content-container__front-container-content {
+    padding: 0px 24.5px;
+  }
+
+  main, .youtalk-main-content-container__front-container-content {
+    width: 1009px;
+  }
+}
+
+@media (max-width: 1023px) {
+  main, .front-container-content__top-part-container, .topics-container__topics-list, .youtalk-main-content-container__front-container-content {
+    width: auto;
+  }
+
+  main, .youtalk-main-content-container__front-container-content {
+    height: 3025px;
+  }
+
+  .youtalk-main-content-container__front-container-content {
+    padding: 0px 20px;
+  }
+
+  .top-part-container__header {
+    margin: 40px 0px 32px 1px;
+  }
+
+  .front-container-content__middle-part-container {
+    grid-template: 600px 594px 447px 447px 447px / 352px 24px 352px;
+  }
+
+  .middle-part-container__eggs-article {
+    grid-column: 1 / 4;
+    grid-row: 1;
+  }
+
+  article:not(:nth-child(-n+2)) {
+    width: auto;
+  }
+
+  .eggs-article__card-info-wrapper_big-gap, .run-article__card-info-wrapper_superbig-gap {
+    row-gap: 42px;
+  }
+
+  .middle-part-container__run-article {
+    grid-column: 1 / 4;
+    grid-row: 2;
+  }
+
+  .middle-part-container__girl-article {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .girl-article__card-info-wrapper_supersmall-gap, .woman-burnout-article__card-info-wrapper_supersmall-gap {
+    row-gap: 14px;
+  }
+
+  .middle-part-container__girl-article h2, .middle-part-container__woman-burnout-article h2 {
+    width: auto;
+  }
+
+  .girl-article__description-paragraph::after, .woman-burnout-article__description-paragraph::after {
+    top: -19px;
+    right: -211px;
+  }
+
+  .woman-burnout-article__description-paragraph {
+    height: 40px;
+  }
+
+  .middle-part-container__swim-article {
+    grid-column: 3;
+    grid-row: 3;
+  }
+
+  .swim-article__card-info-wrapper_small-gap, .woman-fears-article__card-info-wrapper_small-gap {
+    row-gap: 26px;
+  }
+
+  .middle-part-container__swim-article h2, .middle-part-container__woman-fears-article h2 {
+    width: auto;
+  }
+
+  br {
+    display: block;
+  }
+
+  .middle-part-container__smile-article {
+    grid-column: 1;
+    grid-row: 4;
+  }
+
+  article:nth-child(5), article:last-child {
+    margin-left: 0;
+  }
+
+  .smile-article__card-info-wrapper_middle-gap, .men-article__card-info-wrapper_middle-gap {
+    row-gap: 46px;
+  }
+
+  .middle-part-container__woman-burnout-article {
+    grid-column: 3;
+    grid-row: 4;
+  }
+
+  .middle-part-container__woman-fears-article {
+    grid-column: 1;
+    grid-row: 5;
+  }
+
+  .middle-part-container__men-article {
+    grid-column: 3;
+    grid-row: 5;
+  }
+
+  .front-container-content__button-container {
+    margin: 33px 0px 55px 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .front-container-content__middle-part-container img:not(.eggs-article__topic-paragraph img, .run-article__topic-paragraph img, .girl-article__topic-paragraph img,
+  .swim-article__topic-paragraph img, .smile-article__topic-paragraph img, .woman-burnout-article__topic-paragraph img, .woman-fears-article__topic-paragraph img,
+  .men-article__topic-paragraph img) {
+    height: 404px;
+  }
+}
+
+@media (max-width: 782px) {
+  main, .youtalk-main-content-container__front-container-content {
+    width: 753px;
+  }
+  
+  .youtalk-main-content-container__front-container-content {
+    padding: 0px 12.5px;
+  }
+}
+
+@media (max-width: 767px) {
+  main, .youtalk-main-content-container__front-container-content {
+    width: auto;
+    height: 2229px;
+  }
+
+  .youtalk-main-content-container__front-container-content {
+    padding: 0px 20px;
+    align-items: normal;
+  }
+
+  .front-container-content__top-part-container {
+    padding: 16px 0px 16px 0px;
+    align-self: auto;
+  }
+
+  .front-container-content__top-part-container > div {
+    height: 36px;
+    overflow: hidden;
+  }
+
+  .front-container-content__top-part-container > div > div {
+    height: 56px;
+    overflow-x: scroll;
+  }
+
+  .top-part-container__header {
+    font: 32px/40px "Montserrat-Bold";
+    margin: 32px 0px 24px 0px;
+  }
+
+  .topics-container__topics-list {
+    width: 1181px;
+    padding-top: 2px;
+    margin: 0px 1px 0px 1px;
+    flex-wrap: nowrap;
+  }
+
+  .front-container-content__middle-part-container {
+    display: flex;
+    width: 374px;
+    flex-direction: column;
+    row-gap: 16px;
+    grid-template: none;
+  }
+
+  article:nth-last-child(-n+4) {
+    display: none;
+  }
+
+  article a img {
+    height: 206px;
+  }
+
+  .eggs-article__card-info-wrapper_big-gap {
+    row-gap: 40px;
+  }
+
+  .run-article__card-info-wrapper_superbig-gap {
+    row-gap: 46px;
+  }
+
+  .girl-article__card-info-wrapper_supersmall-gap {
+    row-gap: 39px;
+  }
+
+  .girl-article__description-paragraph {
+    height: auto;
+    overflow: visible;
+  }
+  
+  .girl-article__description-paragraph::after {
+    content: normal;
+  }
+
+  .swim-article__card-info-wrapper_small-gap, .woman-fears-article__card-info-wrapper_small-gap {
+    row-gap: 45px;
+  }
+
+  .front-container-content__button-container {
+    margin: 28px 0px 59px 0px;
+  }
+}
+
+@media (min-width: 414px) and (max-width: 414px) {
+  .front-container-content__top-part-container > div {
+    width: 391px;
+  }
+}
+
+@media (max-width: 413px) {
+  .front-container-content__top-part-container {
+    padding: 24px 0px 24px 0px;
+  }
+
+  .top-part-container__navigation-paragraph-paragraph {
+    margin-left: 1px;
+  }
+
+  .top-part-container__header {
+    font: 24px/32px "Montserrat-Bold";
+    margin: 24px 0px 24px 1px;
+  }
+
+  main, .youtalk-main-content-container__front-container-content {
+    height: 2305px;
+  }
+
+  .youtalk-main-content-container__front-container-content {
+    padding: 0px 16px 0px 15px;
+  }
+
+  .front-container-content__middle-part-container {
+    width: 288px;
+  }
+
+  .eggs-article__description-paragraph, .girl-article__description-paragraph {
+    height: 60px;
+    overflow: hidden;
+  }
+
+  .eggs-article__description-paragraph::after, .girl-article__description-paragraph::after {
+    content: "...";
+    position: absolute;
+    top: auto;
+    right: 51px;
+    bottom: -1px;
+  }
+
+  .eggs-article__card-info-wrapper_big-gap, .girl-article__card-info-wrapper_supersmall-gap {
+    row-gap: 8px;
+  }
+  
+  .run-article__card-info-wrapper_superbig-gap, .swim-article__card-info-wrapper_small-gap, .woman-fears-article__card-info-wrapper_small-gap {
+    row-gap: 18px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 320px) {
+  .front-container-content__top-part-container > div {
+    width: 304px;
+  }
+}
