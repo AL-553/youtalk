@@ -16,11 +16,11 @@
 }
 @font-face {
   font-family: "Montserrat-Italic";
-  src: url("/youtalk/pages/src/assets/fonts/Montserrat/Montserrat-Italic.woff2") format("woff2");
+  src: url("/youtalk/pages/article/src/assets/fonts/Montserrat/Montserrat-Italic.woff2") format("woff2");
 }
 @font-face {
   font-family: "OpenSans-Regular";
-  src: url("/youtalk/pages/src/assets/fonts/OpenSans/OpenSans-Regular.woff2") format("woff2");
+  src: url("/youtalk/pages/article/src/assets/fonts/OpenSans/OpenSans-Regular.woff2") format("woff2");
 }
 
 * {
